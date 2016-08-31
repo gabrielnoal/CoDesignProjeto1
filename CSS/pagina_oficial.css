@@ -4,6 +4,7 @@
     height: 1200px;
     margin: auto;
     border: 1px solid black;
+
 }
 
 
@@ -81,6 +82,7 @@ header {
     width: auto;
     height: 50px;
     padding: 5px;
+    background-color: #FF0606
 	
 }
 
@@ -105,6 +107,7 @@ footer {
 	top:306px;
     border: 1px solid black;
     height: 44px;
+    background-color: #FF0606
 }
 
 .foto_perfil1{
