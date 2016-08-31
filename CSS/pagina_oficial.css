@@ -1,7 +1,78 @@
 .geral{
-    width: 1000;
+	position: relative;
+    width: 1300px;
+    height: 1200px;
     margin: auto;
     border: 1px solid black;
+}
+
+
+.mecatronica{
+	position: absolute;
+	top:100px;
+	left: 500px;
+	border:1px;
+	display: inline;
+}
+
+.mecanica{
+	position: absolute;
+	top:100px;
+	left: 50px;
+	border:1px;
+	display: inline;
+}
+
+.computacao{
+	position: absolute;
+	top:100px;
+	left: 950px;
+	border:1px;
+	display: inline;
+}
+
+
+
+.foto_mec{
+	height: 199px;
+	width: 254px;	
+}
+
+.foto_meca{
+	height: 199px;
+	width: 254px;	
+}
+
+.foto_comp{
+	height: 199px;
+	width: 254px;	
+}
+
+.teorico{
+	position: relative;
+	top:600px;
+	left: 150px;
+	border:1px;
+	display: inline;
+}
+
+.praticos{
+	position: relative;
+	top:220px;
+	left: 750px;
+	display: inline;
+}
+
+
+
+.foto_teorico{
+	height: 199px;
+	width: 254px;	
+}
+
+.foto_pratico{
+	height: 199px;
+	width: 254px;	
 }
 
 header {
@@ -11,9 +82,6 @@ header {
     height: 50px;
     padding: 5px;
 	
-
-
-
 }
 
 .logo{
@@ -29,14 +97,13 @@ header {
 	margin:0;
 	top: 20%;
 
-
-
 }
+
 
 footer {
 	position: relative;
+	top:306px;
     border: 1px solid black;
- 
     height: 44px;
 }
 
