@@ -17,11 +17,22 @@ header {
 .titulo{
 	position: absolute;
 	left: 33%;
+	width: auto;
 	display: inline-block;
 	font-family: 'Crimson Text', serif;
 	font size: 60px
 
+
 }
+
+.resumo_do_projeto{
+	position: absolute;
+	bottom: 55%;
+
+
+}
+
+
 
 .logo{
 	position: relative;
