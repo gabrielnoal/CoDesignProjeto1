@@ -31,19 +31,19 @@ header {
 
 
 }
-img.foto_projeto1{
+.foto_projeto1{
 	padding-left: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-img.foto_projeto2{
+.foto_projeto2{
     margin-left: auto;
     margin-right: auto;
 
  }
 
- img.foto_projeto3{
+ .foto_projeto3{
     margin-left: auto;
     margin-right: auto;    
 
