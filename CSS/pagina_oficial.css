@@ -78,15 +78,15 @@ header{
 
 .teorico{
 	position: relative;
-	top:600px;
-	left: 150px;
+	top:547px;
+	left: 20%;
 	display: inline;
 }
 
 .praticos{
 	position: relative;
-	top:295px;
-	left: 750px;
+	top:250px;
+	left: 60%;
 	display: inline;
 }
 
@@ -106,7 +106,7 @@ footer {
 	position: relative;
 	top:306px;
     border: 1px solid black;
-    height: 44px;
+    height: 60px;
     background-color: #FF0606
 }
 
@@ -165,4 +165,9 @@ h2{
 	font-family: 'Arial', serif;
 	font-size: 20px;
 	
+}
+
+.tituloscat{
+	position: absolute;
+	right:150px;
 }
