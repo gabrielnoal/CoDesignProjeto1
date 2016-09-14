@@ -33,8 +33,8 @@ header {
 }
 .fotos_projeto{
 	display: inline;
-    margin-left: auto;
-    margin-right: auto;
+	margin: auto;
+	width: 200px;
 
 }
 
