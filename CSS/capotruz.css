@@ -1,12 +1,52 @@
 
+
 div {
     width: 1280px;
     margin: auto;
 }
 
 header {
-    width: 100%; /* desnecessario */
+	position: relative;
+	border: 1px solid black;
+	width: auto;
+	height: 70px;
+	margin-bottom: 10px;
+	background-color: #FF0606;
+
 }
+.titulo{
+	position: absolute;
+	left: 33%;
+	width: auto;
+	display: inline-block;
+	font-family: 'Crimson Text', serif;
+	font size: 60px
+
+
+}
+
+.resumo_do_projeto{
+	position: absolute;
+	bottom: 55%;
+
+
+}
+.fotos_projeto{
+	display: inline;
+	margin: auto;
+	width: 200px;
+
+}
+
+
+.logo{
+	position: relative;
+	height: 65px;
+	padding: 3px;
+	border-right: 2px solid black;
+	margin: 0px;
+	display: inline;
+}	
 
 .item-menu {
     border: 1px solid black;
@@ -14,3 +54,59 @@ header {
     padding: 5px;
     float: left;
 }
+
+
+
+footer {
+	position: relative;
+    border: 1px solid black;
+ 	height: 44px;
+ 	background-color: #FF0606
+}
+
+.foto_perfil1{
+	position: absolute;	
+	height: 40px;
+ 	margin-top: 2px;
+
+}
+
+.foto_perfil2{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:40px;
+ 
+
+}
+
+.foto_perfil3{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:80px;
+ 
+
+}
+
+.foto_perfil4{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:120px;
+ 
+
+}
+
+.link_sobremim{
+	position: absolute;
+	height: 60px;
+	margin-top: 10px;
+	right: 50%;
+}
+
+.copyright{
+	position: absolute;
+	right:10px;
+}
+
