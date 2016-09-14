@@ -5,29 +5,28 @@ div {
     margin: auto;
 }
 
-header {
+header{
 	position: relative;
 	border: 1px solid black;
 	width: auto;
 	height: 70px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	background-color: #FF0606;
 
 }
 .titulo{
 	position: absolute;
 	left: 33%;
-	width: auto;
 	display: inline-block;
 	font-family: 'Crimson Text', serif;
-	font size: 60px
-
-
+	font-size: 64px;
 }
 
 .resumo_do_projeto{
 	position: absolute;
 	bottom: 55%;
+	font-size: 18px;
+	margin: 30px;
 
 
 }
@@ -53,6 +52,17 @@ header {
     width: 250px;
     padding: 5px;
     float: left;
+}
+
+strong{
+	font-weight:bold;
+	font-size: 21px;
+}
+
+
+.perguntas{
+	font-size: 18px;
+	margin: 30px;
 }
 
 
