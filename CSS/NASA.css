@@ -1,7 +1,6 @@
 .geral{
-	position: relative;
     width: auto;
-    height: 1177px;
+    height: auto;
     margin: 2px;
     border: 2px solid black;
 
@@ -12,7 +11,7 @@ header{
 	border: 1px solid black;
 	width: auto;
 	height: 70px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	background-color: #FF0606;
 
 }
@@ -31,82 +30,15 @@ header{
 	position: absolute;
 	left: 33%;
 	display: inline-block;
-
-}
-
-.fonte_titulo{
 	font-family: 'Crimson Text', serif;
 	font-size: 64px;
 }
 
-
-.mecanica{
-	position: absolute;
-	top:200px;
-	left: 50px;
-	display: inline;
-}
-
-.mecatronica{
-	position: absolute;
-	top:200px;
-	left: 525px;
-	display: inline;
-}
-.computacao{
-	position: absolute;
-	top:200px;
-	left: 975px;
-	display: inline;
-}
-
-
-.foto_mec{
-	height: 199px;
-	width: 254px;	
-}
-
-.foto_meca{
-	height: 199px;
-	width: 254px;	
-}
-
-.foto_comp{
-	height: 199px;
-	width: 254px;	
-}
-
-.teorico{
-	position: relative;
-	top:547px;
-	left: 20%;
-	display: inline;
-}
-
-.praticos{
-	position: relative;
-	top:250px;
-	left: 60%;
-	display: inline;
-}
-
-
-
-.foto_teorico{
-	height: 199px;
-	width: 254px;	
-}
-
-.foto_pratico{
-	height: 199px;
-	width: 254px;	
-}
-
 footer {
 	position: relative;
-	top:306px;
-    border: 1px solid black;
-    height: 60px;
+	
+    border: 2px solid black;
+    height: 44px;
     background-color: #FF0606
 }
 
@@ -156,19 +88,41 @@ footer {
 	right:10px;
 }
 
+
+.corpo{
+	position: relative;
+	margin-top: 20px;
+
+}
+
+.video{
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	display: block;
+}
+
+strong{
+	font-weight:bold;
+	font-size: 21px;
+}
+
+.resumo{
+	font-size: 18px;
+	margin: 30px;
+}
+
+.perguntas{
+	font-size: 18px;
+	margin: 30px;
+}
+
 li{
-	font-family: 'Verdana', serif;
-	font-size: 14px;
+	margin-top: 10px;
+}
+
+.titulo_video{
 	margin: 10px;
-}
-
-h2{
-	font-family: 'Arial', serif;
-	font-size: 20px;
-	
-}
-
-.tituloscat{
-	position: absolute;
-	right:150px;
+	font-size: 41px;
 }
