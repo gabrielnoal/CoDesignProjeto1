@@ -1,8 +1,11 @@
 
 
-div {
-    width: 1280px;
-    margin: auto;
+.geral{
+	position: relative;
+    width: auto;
+    height: 1177px;
+    margin: 2px;
+    border: 2px solid black;
 }
 
 header {
@@ -21,22 +24,49 @@ header {
 	display: inline-block;
 	font-family: 'Crimson Text', serif;
 	font size: 60px
+}
 
+li{
+
+	font-family: 'Verdana', serif;
+	font-size: 14px;
+	margin: 10px;
 
 }
 
-.resumo_do_projeto{
-	position: absolute;
-	bottom: 55%;
-
-
+strong{
+ font-weight:bold;
 }
-.fotos_projeto{
+
+
+
+.foto1{
+	height: 200px;
+	top:100px;
+	right: 50px;
 	display: inline;
-	margin: auto;
-	width: 200px;
-
+	
+	width: 300px;
 }
+
+.foto2{
+	height: 200px;
+	top:100px;
+	right: 525px;
+	display: inline;
+	width: 300px;
+}
+
+
+
+.foto3{
+	height: 200px;
+	top:100px;
+	right: 975px;
+	display: inline;
+	width: 300px;
+}
+
 
 
 .logo{
@@ -59,9 +89,11 @@ header {
 
 footer {
 	position: relative;
+	top:16px;
     border: 1px solid black;
- 	height: 44px;
- 	background-color: #FF0606
+    height: 60px;
+    background-color: #FF0606
+
 }
 
 .foto_perfil1{
