@@ -29,32 +29,48 @@ header{
 	font-size: 64px;
 }
 
-.resumo_do_projeto{
-	position: absolute;
-	bottom: 55%;
-	font-size: 18px;
-	margin: 30px;
+li{
 
-
-}
-.fotos_projeto{
-	display: inline;
-	margin: auto;
-	width: 200px;
+	font-family: 'Verdana', serif;
+	font-size: 14px;
+	margin: 10px;
 
 }
+
+strong{
+ font-weight:bold;
+}
+
+
 
 .foto_capotruz1{
-	margin: auto;
+	height: 200px;
+	top:100px;
+	right: 50px;
+	display: inline;
+	
+	width: 300px;
 }
 
 .foto_capotruz2{
-	margin: auto;
+	height: 200px;
+	top:100px;
+	right: 525px;
+	display: inline;
+	width: 300px;
 }
 
+
+
 .foto_capotruz3{
-	margin: auto;
+	height: 200px;
+	top:100px;
+	right: 975px;
+	display: inline;
+	width: 300px;
 }
+
+
 
 .logo{
 	position: relative;
@@ -72,24 +88,15 @@ header{
     float: left;
 }
 
-strong{
-	font-weight:bold;
-	font-size: 21px;
-}
-
-
-.perguntas{
-	font-size: 18px;
-	margin: 30px;
-}
-
 
 
 footer {
 	position: relative;
+	top:16px;
     border: 1px solid black;
- 	height: 44px;
- 	background-color: #FF0606
+    height: 60px;
+    background-color: #FF0606
+
 }
 
 .foto_perfil1{
@@ -137,4 +144,3 @@ footer {
 	position: absolute;
 	right:10px;
 }
-
