@@ -1,9 +1,8 @@
 
 
 .geral{
-	position: relative;
     width: auto;
-    height: 1177px;
+    height: auto;
     margin: 2px;
     border: 2px solid black;
 }
@@ -20,11 +19,11 @@ header {
 .titulo{
 	position: absolute;
 	left: 33%;
-	width: auto;
 	display: inline-block;
 	font-family: 'Crimson Text', serif;
-	font size: 60px
+	font-size: 64px;
 }
+
 
 li{
 
@@ -93,7 +92,6 @@ footer {
     border: 1px solid black;
     height: 60px;
     background-color: #FF0606
-
 }
 
 .foto_perfil1{
