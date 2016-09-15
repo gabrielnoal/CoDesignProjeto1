@@ -14,6 +14,13 @@ header{
 	background-color: #FF0606;
 
 }
+.geral{
+    width: auto;
+    height: auto;
+    margin: 2px;
+    border: 2px solid black;
+
+}
 .titulo{
 	position: absolute;
 	left: 33%;
