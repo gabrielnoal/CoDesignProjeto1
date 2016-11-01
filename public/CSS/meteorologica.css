@@ -1,0 +1,140 @@
+
+.geral{
+    width: auto;
+    height: auto;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+header {
+	position: relative;
+	border: 1px solid black;
+	width: auto;
+	height: 70px;
+	margin-bottom: 10px;
+	background-color: #FF0606;
+
+}
+.titulo{
+	position: absolute;
+	left: 33%;
+	display: inline-block;
+	font-family: 'Crimson Text', serif;
+	font-size: 64px;
+}
+
+
+li{
+
+	font-family: 'Verdana', serif;
+	font-size: 14px;
+	margin: 10px;
+
+}
+
+strong{
+ font-weight:bold;
+}
+
+
+
+.foto1{
+	height: 200px;
+	top:100px;
+	right: 33%;
+	display: inline;
+	
+	width: 300px;
+}
+
+.foto2{
+	height: 200px;
+	top:100px;
+	right: 525px;
+	display: inline;
+	width: 300px;
+}
+
+
+
+.foto3{
+	height: 200px;
+	top:100px;
+	right: 975px;
+	display: inline;
+	width: 300px;
+}
+
+
+
+.logo{
+	position: relative;
+	height: 65px;
+	padding: 3px;
+	border-right: 2px solid black;
+	margin: 0px;
+	display: inline;
+}	
+
+.item-menu {
+    border: 1px solid black;
+    width: 250px;
+    padding: 5px;
+    float: left;
+}
+
+
+
+footer {
+	position: relative;
+	top:0px;
+    border: 1px solid black;
+    height: 44px;
+    background-color: #FF0606
+}
+
+.foto_perfil1{
+	position: absolute;	
+	height: 40px;
+ 	margin-top: 2px;
+
+}
+
+.foto_perfil2{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:40px;
+ 
+
+}
+
+.foto_perfil3{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:80px;
+ 
+
+}
+
+.foto_perfil4{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:120px;
+ 
+
+}
+
+.link_sobremim{
+	position: absolute;
+	height: 60px;
+	margin-top: 10px;
+	right: 50%;
+}
+
+.copyright{
+	position: absolute;
+	right:10px;
+}

@@ -1,0 +1,174 @@
+.geral{
+	position: relative;
+    width: auto;
+    height: 1177px;
+    margin: 2px;
+    border: 2px solid black;
+
+}
+
+header{
+	position: relative;
+	border: 1px solid black;
+	width: auto;
+	height: 70px;
+	margin-bottom: 10px;
+	background-color: #FF0606;
+
+}
+
+.logo{
+	position: relative;
+	height: 65px;
+	padding: 3px;
+	border-right: 2px solid black;
+	margin: 0px;
+	display: inline;
+
+}
+
+.titulo{
+	position: absolute;
+	left: 33%;
+	display: inline-block;
+
+}
+
+.fonte_titulo{
+	font-family: 'Crimson Text', serif;
+	font-size: 64px;
+}
+
+
+.mecanica{
+	position: absolute;
+	top:200px;
+	left: 50px;
+	display: inline;
+}
+
+.mecatronica{
+	position: absolute;
+	top:200px;
+	left: 525px;
+	display: inline;
+}
+.computacao{
+	position: absolute;
+	top:200px;
+	left: 975px;
+	display: inline;
+}
+
+
+.foto_mec{
+	height: 199px;
+	width: 254px;	
+}
+
+.foto_meca{
+	height: 199px;
+	width: 254px;	
+}
+
+.foto_comp{
+	height: 199px;
+	width: 254px;	
+}
+
+.teorico{
+	position: relative;
+	top:622px;
+	left: 20%;
+	display: inline;
+}
+
+.praticos{
+	position: relative;
+	top:250px;
+	left: 60%;
+	display: inline;
+}
+
+
+
+.foto_teorico{
+	height: 199px;
+	width: 254px;	
+}
+
+.foto_pratico{
+	height: 199px;
+	width: 254px;	
+}
+
+footer {
+	position: relative;
+	top:306px;
+    border: 1px solid black;
+    height: 60px;
+    background-color: #FF0606
+}
+
+.foto_perfil1{
+	position: absolute;	
+	height: 40px;
+ 	margin-top: 2px;
+
+}
+
+.foto_perfil2{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:40px;
+ 
+
+}
+
+.foto_perfil3{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:80px;
+ 
+
+}
+
+.foto_perfil4{
+	position: absolute;
+	height: 40px;
+	margin-top: 2px;
+	left:120px;
+ 
+
+}
+
+.link_sobremim{
+	position: absolute;
+	height: 60px;
+	margin-top: 10px;
+	right: 50%;
+}
+
+.copyright{
+	position: absolute;
+	right:10px;
+}
+
+li{
+	font-family: 'Verdana', serif;
+	font-size: 14px;
+	margin: 10px;
+}
+
+h2{
+	font-family: 'Arial', serif;
+	font-size: 20px;
+	
+}
+
+.tituloscat{
+	position: absolute;
+	right:150px;
+}
