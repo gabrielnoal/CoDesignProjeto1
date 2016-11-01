@@ -1,69 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome to Firebase Hosting</title>
-    <style media="screen">
-      body {
-        font-family: Roboto, Arial, sans-serif;
-        background: #ECEFF1;
-        color: rgba(0,0,0,0.87);
-      }
+	<head>
+		<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+		
+		<script src="main.js"></script>
+		
 
-      a {
-        color: rgb(3,155,229);
-      }
+		<meta charset="utf-8">
+		<title>Pagina Oficial</title>
+		<link rel="stylesheet" type="text/css" href="/CSS/reset.css">
+		<link rel="stylesheet" type="text/css" href="/CSS/Index.css">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	</head>
 
-      #message {
-        max-width: 400px;
-        margin: 40px auto;
-        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
-        border-radius: 2px;
-        background: white;
-        padding: 16px 24px;
-      }
+	<body>
+		<div class="geral">
 
-      #message h1 {
-        font-size: 22px;
-        font-weight: 500;
-        text-align: center;
-        margin: 0 0 16px;
-      }
+			<header>
+				<a href="pagina_oficial.html"><img class="logo" src="/imagens/logo insper.png"></a>
+				<h1 class="titulo fonte_titulo">Portfolio Engenharia</h1>
+			</header>
 
-      #message p {
-        font-weight: 300;
-        line-height: 150%;
-      }
+			<div class="materias">
 
-      #message ul {
-        list-style: none;
-        margin: 16px 0 0;
-        padding: 0;
-        text-align: center;
-      }
+				<div class="mecatronica">
 
-      #message li a {
-        display: inline-block;
-        padding: 8px;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: 500;
-        background: rgb(3,155,229);
-        color: white;
-        border: 1px solid rgb(3,155,229);
-        border-radius: 3px;
-        font-size: 14px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h1>Welcome to Firebase Hosting</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
+					<h2 tituloscat>Engenharia Mecatrônica</h2>
+					<img class="foto_meca" src="../imagens/mecatronica.png">
+
+					<ul>
+						<li >●Estação Meteorológica (Instrumentação e Medição)</li>
+					</ul>
+				</div>
+
+				<div class="mecanica">
+
+					<h2 tituloscat>Engenharia Mecânica</h2>
+					<img class="foto_mec" src="../imagens/mecanica.jpg">
+
+					<ul>
+						<li>●Circuito eletrônico com amplificador operacional<br>ou diodos transistores (Acionamentos Elétricos)</li>
+
+						<li>●Acionamento PWM com eletrônica analógica ou <br> filtro (Acionamentos Elétricos)</li>
+
+						<li>●Sistema mecânico (Modelagem e Simulação)</li>
+					</ul>
+				</div>
+
+				<div class="computacao">
+
+					<h2 tituloscat>Engenharia da Computação</h2>
+					<img class="foto_comp" src="../imagens/comp.png">
+					
+
+					<ul>
+						<li>●Calculo de conceito (Design de Software)</li>
+
+						<li>●CRUD (Design de Software)</li>
+						
+						<li>●Jogo da Velha (Design de Software)</li>
+
+						<li>●Projeto Final (Design de Software)</li>
+
+						<li>●Protótipo de Website (Co-design de Apps)</li>
+
+						<li>●Protótipo de Aplicativo (Co-design de Apps)</li>
+
+						<li>●Análise exploratória (Co-design de Apps)</li>
+
+						<li>●Computação de interfaces (Co-design de Apps)</li>
+					</ul>			
+				</div>
+			</div>
+
+			<div class="categorias">
+				<div class="teorico">
+
+					<h2 tituloscat>Projetos Teóricos</h2>
+					<img class="foto_teorico" src="../imagens/teorico.jpg">
+					
+					<ul>
+						<li>●Projeto único (Física do movimento)</li>
+
+						<li>●Dinâmica populacional (Modelagem e Simulação)</li>
+
+						<li>●Farmacocinético ou termodinâmica (Modsim)</li>
+
+						<li>●Modelos de regressão (Ciência dos dados)</li>
+
+						<li>●Ajuste do modelo teórico (Ciência dos dados)</li>
+
+						<li>●Teorema do limite central (Ciência dos dados)</li>
+					</ul>
+				</div>
+					
+				<div class="praticos">
+
+					<h2 tituloscat>Projetos Práticos</h2>
+					<img class="foto_pratico" src="../imagens/fablab.jpg">
+					
+					<ul>
+						<li>●<a href="sorteio.html">Application do singularity</a></li>
+
+						<li>●Artigo 1 (Grandes Desafíos Engenharia)</li>
+
+						<li>●Artigo 2 (Grandes Desafíos Engenharia)</li>
+
+						<li>●Brinquedo infantil (Natureza do Design)</li>
+
+						<li>●Rede de distribuição de petroleo (Instrumentação e Medição)</li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div>
+				<footer>
+					<a href="https://www.facebook.com/gabriel.noaloliva"><img class="foto_perfil1" src="../imagens/perfil noal.jpg"></a>
+
+					<a href="https://www.facebook.com/eduardo.gebara.7"><img class="foto_perfil2" src="../imagens/perfil gebara.jpg"></a>
+					
+					<a href="https://www.facebook.com/brenonakad"><img class="foto_perfil3" src="../imagens/perfil breno 2.jpg"></a>
+					
+					<img class="foto_perfil4" src="../imagens/logo face.png">
+
+					<h3 class="link_sobremim"><a  href='sobremim.html'>Sobre Mim</a></h3>
+
+			        <p class="copyright">
+		    	      &copy; 2016 Noial
+		        	</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+	</html>
